@@ -2,3 +2,4 @@ chamber_p,bar,0..70
 thrust,kN,0..450
 tank_p,bar,0..30
 lox_temp,k,-20..40
+- four channels with limits
