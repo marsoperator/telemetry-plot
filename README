@@ -1,0 +1,23 @@
+telemetry-plot
+
+Draws one PNG per channel from a telemetry dump. Post-fire review only, not for the console.
+
+  ./plot.py -i dump.csv -o out/ -c chamber_p,thrust
+
+Each channel becomes out/<channel>.png with the time axis in seconds from ignition and the
+redlines from doc/channels.txt drawn in.
+
+Dump format
+
+  time_ms,channel,value
+
+One sample per line. Samples are sorted by time before plotting, gaps are interpolated linearly
+and marked with a dashed segment so nobody mistakes them for data.
+
+Layout
+
+  plot/read.py     parse the dump, drop unknown channels
+  plot/render.py   axis, redlines, dashed gaps
+  plot/cli.py      argument handling
+  doc/channels.txt channel list with units and limits
+  tests/           small dumps with expected sizes
