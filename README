@@ -21,3 +21,4 @@ Layout
   plot/cli.py      argument handling
   doc/channels.txt channel list with units and limits
   tests/           small dumps with expected sizes
+- usage
