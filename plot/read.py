@@ -6,3 +6,4 @@ def read(path):
             rows.append((int(t), ch, float(v)))
     return rows
 # parse time, channel, value
+# sort by time
