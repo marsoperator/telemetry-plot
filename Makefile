@@ -5,3 +5,4 @@ clean:
 	rm -rf out *.pyc
 
 .PHONY: test clean
+- test target
