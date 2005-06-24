@@ -7,3 +7,4 @@ def read(path):
     return rows
 # parse time, channel, value
 # sort by time
+# drop unknown channels
