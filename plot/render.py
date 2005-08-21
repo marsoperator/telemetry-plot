@@ -3,3 +3,4 @@ def render(rows, channel, out):
 # stub renderer
 # axis and redlines
 # dashed gap segments
+# png per channel
