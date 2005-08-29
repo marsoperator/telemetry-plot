@@ -8,3 +8,4 @@ def read(path):
 # parse time, channel, value
 # sort by time
 # drop unknown channels
+# linear interpolation
