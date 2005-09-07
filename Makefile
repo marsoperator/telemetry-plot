@@ -6,3 +6,4 @@ clean:
 
 .PHONY: test clean
 - test target
+- clean target
