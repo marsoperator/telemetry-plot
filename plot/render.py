@@ -4,3 +4,4 @@ def render(rows, channel, out):
 # axis and redlines
 # dashed gap segments
 # png per channel
+# channel name in the title
