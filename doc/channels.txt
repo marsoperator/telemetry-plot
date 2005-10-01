@@ -4,3 +4,4 @@ tank_p,bar,0..30
 lox_temp,k,-20..40
 - four channels with limits
 - units in the third column
+- redline from the third column
