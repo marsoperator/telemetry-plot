@@ -12,3 +12,4 @@ if __name__ == "__main__":
     sys.exit(main(sys.argv))
 # channel list argument
 # output directory
+# refuse an empty channel list
