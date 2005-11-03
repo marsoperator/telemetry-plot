@@ -5,3 +5,4 @@ def render(rows, channel, out):
 # dashed gap segments
 # png per channel
 # channel name in the title
+# no legend on single channel
