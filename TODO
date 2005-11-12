@@ -1,3 +1,4 @@
 legend placement is still wrong on two channels
 add a channel whitelist to the cli
 - legend placement
+- channel whitelist
