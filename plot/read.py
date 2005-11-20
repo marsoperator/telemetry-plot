@@ -9,3 +9,4 @@ def read(path):
 # sort by time
 # drop unknown channels
 # linear interpolation
+# error on a short line
