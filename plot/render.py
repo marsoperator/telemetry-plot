@@ -6,3 +6,4 @@ def render(rows, channel, out):
 # png per channel
 # channel name in the title
 # no legend on single channel
+# fixed 800x400 canvas
