@@ -5,3 +5,4 @@ lox_temp,k,-20..40
 - four channels with limits
 - units in the third column
 - redline from the third column
+- lox temp range
