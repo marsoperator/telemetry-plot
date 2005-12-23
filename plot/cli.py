@@ -13,3 +13,4 @@ if __name__ == "__main__":
 # channel list argument
 # output directory
 # refuse an empty channel list
+# usage text
